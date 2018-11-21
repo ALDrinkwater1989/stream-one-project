@@ -1,62 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
 
 /*----------------Background colours*/
-.background{
-    background: 
-    linear-gradient(rgba(255,255,255,0.2),
-    rgba(255,255,255,0.5)
-    ),
-   
-    url("../images/roshar.jpg");
-    
-    
+
+.background {
+    background: linear-gradient(rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)),
+
+    url("../images/books.jpg");
+
+
 }
 
 
-.menu-color-mistborn{
+.menu-color-mistborn {
     background-color: #6D8EB7;
-    border-radius: 8%;
+
 }
 
-.menu-color-other{
+.menu-color-other {
     background-color: #106433;
 
-    border-radius: 8%;
+
 }
 
-.menu-color-stormlight{
+.menu-color-stormlight {
     background-color: #D8282A;
-    border-radius: 8%;
+
 }
 
-.menu-color-home, .menu-color-contact{
+.menu-color-home,
+.menu-color-contact {
     background-color: #8C8A8A;
-    border-radius: 8%;
 }
 
-#welcome{
-    background-color: rgba(192, 192, 192, 0.2);
-    opacity: 10;
+#welcome {
+    background-color: rgba(192, 192, 192, 0.7);
+
 }
+
+.bio {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
 
 /*----------------Background colours*/
 
-#picture{
-    padding:0;
+#nav li {
+    padding: 0;
 }
 
-.menuitem{
-    padding:0;
-    width: 20%;
+ .menuitem {
     height: 40px;
-   
+     padding-left: 0;
+    padding-right: 0;
+
 }
+
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
     height: 30px;
+
+
 }
 
 .menuitem span {
@@ -65,46 +73,39 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
-    font-weight:100;
+    font-weight: 100;
     letter-spacing: 2px;
     margin-top: 10px;
     font-family: "Ranga", sans-serif;
-    
-  
-    
+
+
+
 }
 
 
-/*----------------Buttons*/
+/*----------------hover.css*/
 
-.btn{
-    width: 20%;
-    border-color: #000;
-    
-}
-
-.btn a{
-    color: #000;
-    
-}
-
-.btn-default{
-    background-color: #9d9d9d;
-}
-
-.hvr-fade:hover {
+.hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 40px;
-    
+  
+  
 }
 
 
 /*----------------Footer*/
+
 footer {
-    background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+
+}
+.footer-overlay{
+    background: rgba(0,0,0,1);
+    padding: 0;
+    margin: 0;
+    width 100%;
     
 }
 
@@ -120,20 +121,19 @@ footer {
     color: #fafafa;
 }
 
-.picture{
+.picture {
     background: url("../images/brendon.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 360px;
-    transition: all .5s ease-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-   
+    min-width: 360px;
+    padding: 0;
+
 
 }
 
- .intro-paragraph{
+.intro-paragraph {
     color: #fafafa;
     font-family: "Slabo+27px";
     font-size: 20px;
@@ -141,7 +141,20 @@ footer {
     text-align: center;
 }
 
-.welcome-heading{
+.bio-paragraph {
+    font-family: "Slabo+27px";
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    display: inline-block;
+
+
+
+}
+
+.welcome-heading {
     color: #fafafa;
     text-align: center;
     font-family: "Slabo+27px";
@@ -149,14 +162,15 @@ footer {
     font-size: 40px;
 }
 
-.bio{
- color: #fafafa;
- font-family: "Slabo+27px";
+.bio {
+    color: #fafafa;
+    font-family: "Slabo+27px";
 }
 
 
 
 /*----------------Social links*/
+
 .social-links {
     padding-bottom: 15px;
 
@@ -182,6 +196,5 @@ footer {
 .social-links li a i:hover {
     background: #6D8EB7;
 }
-
 
 
