@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
+
+/*----------------Background colours*/
+.background{
+    background: 
+    linear-gradient(rgba(255,255,255,0.2),
+    rgba(255,255,255,0.5)
+    ),
+   
+    url("../images/roshar.jpg");
+    
+    
+}
+
+
+.menu-color-mistborn{
+    background-color: #6D8EB7;
+    border-radius: 8%;
+}
+
+.menu-color-other{
+    background-color: #106433;
+
+    border-radius: 8%;
+}
+
+.menu-color-stormlight{
+    background-color: #D8282A;
+    border-radius: 8%;
+}
+
+.menu-color-home, .menu-color-contact{
+    background-color: #8C8A8A;
+    border-radius: 8%;
+}
+
+#welcome{
+    background-color: rgba(192, 192, 192, 0.2);
+    opacity: 10;
+}
+
+/*----------------Background colours*/
+
+#picture{
+    padding:0;
+}
+
+.menuitem{
+    padding:0;
+    width: 20%;
+    height: 40px;
+   
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 30px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: "Ranga", sans-serif;
+    
+  
+    
+}
+
+
+/*----------------Buttons*/
+
+.btn{
+    width: 20%;
+    border-color: #000;
+    
+}
+
+.btn a{
+    color: #000;
+    
+}
+
+.btn-default{
+    background-color: #9d9d9d;
+}
+
+.hvr-fade:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    
+}
+
+
+/*----------------Footer*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    
+}
+
+/*----------------General formatting*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.picture{
+    background: url("../images/brendon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+   
+
+}
+
+ .intro-paragraph{
+    color: #fafafa;
+    font-family: "Slabo+27px";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.welcome-heading{
+    color: #fafafa;
+    text-align: center;
+    font-family: "Slabo+27px";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.bio{
+ color: #fafafa;
+ font-family: "Slabo+27px";
+}
+
+
+
+/*----------------Social links*/
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background: #6D8EB7;
+}
+
+
+
