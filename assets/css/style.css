@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Ranga|Roboto|Slabo+27px: 100, 200, 300, 400, 500, 600, 700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script: 100, 200, 300, 400, 500, 600, 700');
 
 /*----------------Background colours*/
 
+/*List of hex codes
+
+Mistborn blue - #6D8EB7
+*/
+
+
 body{
-    background:#6D8EB7;
-    
+    background:#fff;
+    padding-top: 100px;
 }
 
 .background {
@@ -58,22 +65,22 @@ body{
 /*NAVBAR*/
 
 .navbar ul{
-    text-align: center;
-    color: #fff;
-    width: 100%;
+   
     display: inline-block;
+   
+}
+
+.navbar ul li{
+   padding-bottom: 20px;
+
 }
 
 .navbar a{
     color: #fff;
     text-align: center;
-    width: 100%;
-}
-.navbar-header {
    
-    font-family: 'Ranga';
-    font-weight: 100;
 }
+
 
 .navbar{
     margin-bottom: 0;
@@ -83,32 +90,16 @@ body{
     width: 100%;
     background-color: #6D8EB7;
     border:0;
+    z-index: 1;
     
 }
 
 .navbar .navbar-brand {
     color: #FFFFFF;
     font-size: 30px;
+    font-family: "Ranga";
 }
 
-
-.navbar-brand-sm {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Ranga';
-}
-
-
-#navbar ul{
-     display: inline-block;
-     text-align: center;
-    
-}
-
-.navbar-default .navbar-nav a{
-    color: #fff;
-    
-}
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -137,14 +128,8 @@ body{
     color: #FFFFFF;
 }
 
-.navbar span{
-    width: 100%;
-    text-align: right;
-}
 
-.nav-padding{
-    padding-bottom: 100px;
-}
+
 
  
 
@@ -239,7 +224,7 @@ body{
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
-    height: 50px;
+    height: 40px;
     
   
   
@@ -286,7 +271,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #6D8EB7;
+    background: c;
 }
 
 /*----------------General formatting*/
@@ -302,7 +287,31 @@ h4 {
     text-transform: uppercase;
 }
 
+.book-heading{
+    font-family: "Dancing Script";
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+
+.book-title{
+    font-family: "Slabo 27px";
+}
+
+.mistborn-caption{
+    color: #6D8EB7;
+    font-family: "Slabo 27px";
+    font-size: 25px;
+}
 /*---------------Mistborn*/
+
+.book-info{
+    background-color: rgba(250,	250, 250, 1);
+    margin-left: 55px;
+    margin-right: 40px;
+    color: #000;
+    font-family: "Roboto";
+}
 
 .final-picture{
     background: url("../images/final-empire.jpg");
@@ -310,17 +319,14 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 150px;
     padding: 0;
     position: static;
     margin: 0;
     width:20px;
 }
 
-.book-info{
-    background-color: #000;
-    width: 80%
-}
+
 
 .well-picture{
     background: url("../images/well.jpg");
@@ -328,31 +334,40 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 150px;
     padding: 0;
     position: static;
+    margin: 0;
+    width:20px;
+    float: right;
 }
 
 .hero-picture{
-    background: url("../images/final-empire.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
-    min-width: 200px;
-    padding: 0;
-    position: static;
-}
-
-.alloy-picture{
     background: url("../images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 150px;
     padding: 0;
     position: static;
+    margin: 0;
+    width:20px;
+}
+
+.alloy-picture{
+    background: url("../images/alloy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    width:1px;
+    float: right;
+    
 }
 
 .shadow-picture{
@@ -361,9 +376,11 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 150px;
     padding: 0;
     position: static;
+       margin: 0;
+    width:20px;
 }
 
 .band-picture{
@@ -372,8 +389,64 @@ h4 {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 200px;
-    min-width: 200px;
+    min-width: 150px;
     padding: 0;
     position: static;
+       margin: 0;
+    width:20px;
+    float: right;
+}
+
+@media(max-width: 768px){
+    .band-picture, .alloy-picture, .well-picture{
+        float: none;
+    }
+}
+
+/*------------------Key info*/
+
+.key-info{
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.key-info .key,
+.key-info .value{
+ padding-right: 8px;
+ 
+}
+
+.key-info .key p,
+.key-info .value p{
+ margin: 0;
+ 
+}
+
+.key-info .key{
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+
+.key-info .key p{
+    font-weight: 700;
+    
+}
+
+.key-info .value{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+.key-info-background{
+    background-color: #fafafa;
+    margin-left: 25px;
+    
 }
 
