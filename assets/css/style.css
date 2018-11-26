@@ -2,6 +2,11 @@
 
 /*----------------Background colours*/
 
+body{
+    background:#6D8EB7;
+    
+}
+
 .background {
     background: linear-gradient(rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.5)),
@@ -11,46 +16,142 @@
 
 }
 
+.mistborn-background{
+     background: linear-gradient(rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)),
 
-.menu-color-mistborn {
-    background-color: #6D8EB7;
-
+    url("../images/mistborn.jpg");
 }
 
-.menu-color-other {
-    background-color: #106433;
+.stormlight-background{
+     background: linear-gradient(rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)),
 
-
+    url("../images/mistborn.jpg");
 }
 
-.menu-color-stormlight {
-    background-color: #D8282A;
+.other-background{
+     background: linear-gradient(rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.5)),
 
+    url("../images/mistborn.jpg");
 }
 
-.menu-color-home,
-.menu-color-contact {
-    background-color: #8C8A8A;
-}
 
 #welcome {
-    background-color: rgba(192, 192, 192, 0.7);
+    background-color: rgba(192, 192, 192, 0.9);
+
+
 
 }
 
-.bio {
-    background: rgba(0, 0, 0, 0.7);
+#bio {
+    background: rgba(0, 0, 0, 0.6);
+   padding-right: 15px;
+   padding-left:15px;
+}
+
+.bio-bacgkround-color{
+    background-color: red;
+}
+
+/*NAVBAR*/
+
+.navbar ul{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar a{
+    color: #fff;
+    text-align: center;
     width: 100%;
 }
-
-
-/*----------------Background colours*/
-
-#nav li {
-    padding: 0;
+.navbar-header {
+   
+    font-family: 'Ranga';
+    font-weight: 100;
 }
 
- .menuitem {
+.navbar{
+    margin-bottom: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #6D8EB7;
+    border:0;
+    
+}
+
+.navbar .navbar-brand {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+
+.navbar-brand-sm {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Ranga';
+}
+
+
+#navbar ul{
+     display: inline-block;
+     text-align: center;
+    
+}
+
+.navbar-default .navbar-nav a{
+    color: #fff;
+    
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background: transparent;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+ .navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: #FFFFFF;
+
+}
+
+.navbar-btn:hover {
+    background-color: #000;
+    border-color: #df4929;
+    color: #FFFFFF;
+}
+
+.navbar span{
+    width: 100%;
+    text-align: right;
+}
+
+.nav-padding{
+    padding-bottom: 100px;
+}
+
+ 
+
+/*--------------Style*/
+
+
+.styles {
     height: 40px;
      padding-left: 0;
     padding-right: 0;
@@ -58,68 +159,25 @@
 }
 
 
-.menuitem a {
+.styles a {
     width: 100%;
     text-decoration: none;
     color: #fafafa;
     height: 30px;
-
-
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
+    font-family: "Ranga";
+    display: inline-block;
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 2px;
     margin-top: 10px;
-    font-family: "Ranga", sans-serif;
-
+ 
 
 
 }
 
-
-/*----------------hover.css*/
-
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 40px;
-  
-  
-}
-
-
-/*----------------Footer*/
-
-footer {
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-
-}
-.footer-overlay{
-    background: rgba(0,0,0,1);
-    padding: 0;
-    margin: 0;
-    width 100%;
-    
-}
-
-/*----------------General formatting*/
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
+/*----------------Picture*/
 
 .picture {
     background: url("../images/brendon.jpg");
@@ -129,30 +187,24 @@ footer {
     min-height: 360px;
     min-width: 360px;
     padding: 0;
-
-
+    position: static;
+    
 }
 
-.intro-paragraph {
-    color: #fafafa;
-    font-family: "Slabo+27px";
-    font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-}
+/*----------------Bio*/
 
 .bio-paragraph {
-    font-family: "Slabo+27px";
-    font-size: 25px;
+    color: #fafafa;
+    font-family: "Exo";
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     width: 100%;
-    padding: 50px;
     display: inline-block;
 
-
-
 }
+
+/*----------------Welcome*/
 
 .welcome-heading {
     color: #fafafa;
@@ -162,10 +214,50 @@ footer {
     font-size: 40px;
 }
 
-.bio {
-    color: #fafafa;
-    font-family: "Slabo+27px";
+
+.intro-paragraph{
+   
+    display: inline-block;
+    width: 100%;
+    
 }
+
+.intro-paragraph p{
+   color: #fafafa;
+   font-family: "Exo";
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#welcome{
+        margin-top: 20px;
+
+}
+
+/*----------------hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    
+  
+  
+}
+
+/*----------------Footer*/
+
+footer {
+    background: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    padding-left: 0px;
+    width: 100%;
+  
+
+}
+
+/*----------------placeholder*/
 
 
 
@@ -197,4 +289,91 @@ footer {
     background: #6D8EB7;
 }
 
+/*----------------General formatting*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*---------------Mistborn*/
+
+.final-picture{
+    background: url("../images/final-empire.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+    margin: 0;
+    width:20px;
+}
+
+.book-info{
+    background-color: #000;
+    width: 80%
+}
+
+.well-picture{
+    background: url("../images/well.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+}
+
+.hero-picture{
+    background: url("../images/final-empire.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+}
+
+.alloy-picture{
+    background: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+}
+
+.shadow-picture{
+    background: url("../images/shadow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+}
+
+.band-picture{
+    background: url("../images/bands.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 200px;
+    padding: 0;
+    position: static;
+}
 
