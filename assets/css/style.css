@@ -26,12 +26,7 @@ body{
 .mistborn-page-background{
     background-color: #6D8EB7;
 }
-.mistborn-background{
-     background: linear-gradient(rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.5)),
 
-    url("../images/mistborn.jpg");
-}
 
 .stormlight-background{
      background: linear-gradient(rgba(255, 255, 255, 0.2),
@@ -274,7 +269,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: c;
+    background:  #6D8EB7;
 }
 
 /*----------------General formatting*/
