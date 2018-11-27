@@ -10,7 +10,7 @@ Mistborn blue - #6D8EB7
 
 
 body{
-    background:#fff;
+    background:#6D8EB7;
     padding-top: 100px;
 }
 
@@ -23,6 +23,9 @@ body{
 
 }
 
+.mistborn-page-background{
+    background-color: #6D8EB7;
+}
 .mistborn-background{
      background: linear-gradient(rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.5)),
@@ -291,6 +294,7 @@ h4 {
     font-family: "Dancing Script";
     font-weight: 500;
     font-size: 30px;
+    text-align: center;`
     
 }
 
@@ -339,7 +343,7 @@ h4 {
     position: static;
     margin: 0;
     width:20px;
-    float: right;
+  
 }
 
 .hero-picture{
@@ -366,7 +370,7 @@ h4 {
     position: relative;
     margin: 0;
     width:1px;
-    float: right;
+    
     
 }
 
@@ -394,13 +398,7 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
-    float: right;
-}
-
-@media(max-width: 768px){
-    .band-picture, .alloy-picture, .well-picture{
-        float: none;
-    }
+    
 }
 
 /*------------------Key info*/
