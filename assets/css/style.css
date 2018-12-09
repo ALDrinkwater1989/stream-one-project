@@ -278,6 +278,10 @@ h4 {
     margin: 0;
 }
 
+.stormlight-heading{
+    color: #fafafa;
+}
+
 .italic{
     font-style: italic;
 }
@@ -309,6 +313,16 @@ h4 {
         font-family: "Slabo 27px";
     font-size: 25px;
 }
+
+.stormlight-caption{
+    color: #cb322c;
+    font-family: "Slabo 27px";
+    font-size: 25px;
+}
+
+.overview{
+}
+
 /*---------------Mistborn*/
 
 .book-info{
