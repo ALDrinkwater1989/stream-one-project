@@ -14,6 +14,8 @@ body{
     padding-top: 100px;
 }
 
+
+
 .background {
     background: linear-gradient(rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.5)),
@@ -28,18 +30,13 @@ body{
 }
 
 
-.stormlight-background{
-     background: linear-gradient(rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.5)),
-
-    url("../images/mistborn.jpg");
+.stormlight-page-background{
+     background: #b3181b;
+     height: 100%;
 }
 
-.other-background{
-     background: linear-gradient(rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.5)),
-
-    url("../images/mistborn.jpg");
+.other-books-background{
+    background: #9d64b2;
 }
 
 
@@ -86,7 +83,7 @@ body{
     top:0;
     left: 0;
     width: 100%;
-    background-color: #6D8EB7;
+    background-color: #525252;
     border:0;
     z-index: 1;
     
@@ -281,6 +278,10 @@ h4 {
     margin: 0;
 }
 
+.italic{
+    font-style: italic;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -289,7 +290,7 @@ h4 {
     font-family: "Dancing Script";
     font-weight: 500;
     font-size: 30px;
-    text-align: center;`
+    text-align: center;
     
 }
 
@@ -300,6 +301,12 @@ h4 {
 .mistborn-caption{
     color: #6D8EB7;
     font-family: "Slabo 27px";
+    font-size: 25px;
+}
+
+.elantris-caption{
+    color: #1b8533;
+        font-family: "Slabo 27px";
     font-size: 25px;
 }
 /*---------------Mistborn*/
@@ -395,6 +402,47 @@ h4 {
     width:20px;
     
 }
+.warbreaker-picture{
+    background: url("../images/warbreaker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    
+}
+
+.elantris-picture{
+    background: url("../images/elantris.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    
+}
+
+.arcanum-picture{
+    background: url("../images/arcanum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    
+}
 
 /*------------------Key info*/
 
@@ -443,3 +491,66 @@ h4 {
     
 }
 
+
+/*-------------Form*/
+
+.center-form, .query-type{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #525252;
+    color: #fafafa;
+    
+}
+
+.form-control{
+    text-align: center;
+}
+
+
+/*---------------Media queries*/
+
+
+
+@media(max-width:567px) and (max-width: 768px){
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+        background: none;
+        position: fixed;
+    }
+    
+    .book-info, .key-info-background{
+        width:100%;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media(min-width:568px) and (max-width: 768px){
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+        background: none;
+        position: fixed;
+    }
+      .book-info, .key-info-background{
+        width:100%;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 997px){
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+       width:100%;
+       margin-bottom: 20px;
+    }
+      .book-info, .key-info-background{
+        width:100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
