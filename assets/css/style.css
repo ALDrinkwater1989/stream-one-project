@@ -320,7 +320,21 @@ h4 {
     font-size: 25px;
 }
 
+.teaching-video{
+   position:static;
+}
+
+.vid-background{
+    background-position: center;
+    margin: 50;
+}
+
 .overview{
+    background-color: #fafafa;
+    width: 80%;
+     margin: auto;
+     padding: 30px;
+    
 }
 
 /*---------------Mistborn*/
