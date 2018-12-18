@@ -67,9 +67,10 @@
                 <form>
                     <input type="text" name="name" class ="form-control" id ="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class ="form-control" id ="emailaddress" placeholder="Email" required/>
-                    <input type ="text" name="quey" class = "form-control" id-"query" placeholder ="Please select what kind of query you have form the list below." readonly>
-                    <select class ="form-control" name ="query-type" placeholder ="select option">
-                        <option value ="default"></option>
+                    <input type ="text" name="quey" class = "form-control" id="query" placeholder ="Please select what kind of query you have form the list below." readonly>
+                    <select class ="form-control" name ="query-type">
+                      
+                         <option value="">&nbsp;</option>
                         <option value ="question">Question</option>
                         <option value = "booking">Booking enquiry</option>
                     </select>
@@ -87,10 +88,10 @@
 
 
     <br />
-    <footer class="container-fluid ">
+     <footer class="container-fluid ">
 
         <div id="footer-details" class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4 col-md-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
                     Placeholder footer
@@ -98,7 +99,7 @@
                 </p>
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-4 col-md-4">
                 <h5 class="uppercase general-sub">Brandon's Social</h5>
                 <ul class="list-inline social-links">
                     <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -108,6 +109,14 @@
                     <li><a target="_blank" href="https://writingexcuses.com/"><i class="fa fa-podcast"></i></a></li>
                 </ul>
             </div>
+                <div class ="col-sm-4 col-md-4 contact-foot-link">
+                <h5 class="uppercase general-sub">Contact</h5>
+                <ul class= "list-inline social-links">
+                      <li><a href="contact.html"><i class="fa fa-at"></i></a></li>
+                </ul>
+               
+            </div>
+             
         </div>
 
     </footer>
