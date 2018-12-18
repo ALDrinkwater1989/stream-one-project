@@ -612,6 +612,20 @@ iframe{
     
 }
 
+.edgedancer-picture{
+    background: url("../images/edgedancer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    border-radius: 25px;
+}
+
 /*------------------Key info*/
 
 .key-info{
@@ -689,7 +703,7 @@ button[type="submit"]{
 
 
 @media(max-width:567px) and (max-width: 768px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
         background: none;
         position: fixed;
     }
@@ -703,7 +717,7 @@ button[type="submit"]{
 
 
 @media(min-width:568px) and (max-width: 768px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
         background: none;
         position: fixed;
     }
@@ -715,7 +729,7 @@ button[type="submit"]{
 }
 
 @media(min-width:768px) and (max-width: 997px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture{
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture,l .edgedancer-picture{
        width:100%;
        margin-bottom: 20px;
     }
