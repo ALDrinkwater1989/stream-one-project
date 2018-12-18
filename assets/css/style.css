@@ -25,6 +25,10 @@ body{
 
 }
 
+
+
+
+
 .mistborn-page-background{
     background-color: #6D8EB7;
 }
@@ -59,11 +63,10 @@ body{
 
 /*NAVBAR*/
 
-.navbar ul{
-   
-    display: inline-block;
-   
+.nav-border{
+    padding: 0;
 }
+
 
 .navbar ul li{
    padding-bottom: 20px;
@@ -123,10 +126,12 @@ body{
     color: #FFFFFF;
 }
 
+.collapse{
+    padding: 0;
+}
 
 
 
- 
 
 /*--------------Style*/
 
@@ -135,7 +140,7 @@ body{
     height: 40px;
      padding-left: 0;
     padding-right: 0;
-
+    display: inline;
 }
 
 
@@ -203,7 +208,7 @@ body{
 }
 
 .intro-paragraph p{
-   color: #fafafa;
+   color: #b5b5b5;
    font-family: "Exo";
     font-size: 20px;
     font-weight: 400;
@@ -231,15 +236,18 @@ footer {
     background: #525252;
     color: #fafafa;
     min-height: 120px;
-    padding-left: 0px;
+    padding: 0;
     width: 100%;
-  
-
 }
+
+
 
 /*----------------placeholder*/
 
-
+.row{
+    margin-right: 0;
+    
+}
 
 /*----------------Social links*/
 
@@ -280,6 +288,12 @@ h4 {
 
 .stormlight-heading{
     color: #fafafa;
+}
+
+.overview-heading{
+    color: #000;
+    font-family: "Slabo+27px";
+    
 }
 
 .italic{
@@ -324,9 +338,20 @@ h4 {
    position:static;
 }
 
-.vid-background{
-    background-position: center;
-    margin: 50;
+
+
+iframe{
+    display: block;
+    margin: auto;
+    height: 315px;
+    width: 560px;
+    border: none;
+
+   
+}
+
+.hidden-title{
+    visibility: hidden;
 }
 
 .overview{
@@ -334,17 +359,51 @@ h4 {
     width: 80%;
      margin: auto;
      padding: 30px;
+     font-family: "Exo";
+    font-size: 23px;
+    text-align: center;
+    border-radius: 25px;
+    
     
 }
-
-/*---------------Mistborn*/
 
 .book-info{
     background-color: rgba(250,	250, 250, 1);
     margin-left: 55px;
     margin-right: 40px;
     color: #000;
+    font-family: "Exo";
+    font-size: 23px;
+     border-radius: 25px;
+}
+
+.value{
     font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.audio-player{
+    margin:auto;
+    display: block;
+}
+
+
+/*---------------Pictures*/
+
+
+.allomancy-picture{
+    background: url("../images/allomancy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 400px;
+    padding: 0;
+    position: static;
+    margin: 0;
+    width:20px;
+    border-radius: 25px;
 }
 
 .final-picture{
@@ -358,6 +417,7 @@ h4 {
     position: static;
     margin: 0;
     width:20px;
+    border-radius: 25px;
 }
 
 
@@ -373,6 +433,7 @@ h4 {
     position: static;
     margin: 0;
     width:20px;
+    border-radius: 25px;
   
 }
 
@@ -387,6 +448,8 @@ h4 {
     position: static;
     margin: 0;
     width:20px;
+    border-radius: 25px;
+    
 }
 
 .alloy-picture{
@@ -400,7 +463,7 @@ h4 {
     position: relative;
     margin: 0;
     width:1px;
-    
+    border-radius: 25px;
     
 }
 
@@ -415,6 +478,7 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
+    border-radius: 25px;
 }
 
 .band-picture{
@@ -428,6 +492,7 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
+    border-radius: 25px;
     
 }
 .warbreaker-picture{
@@ -441,6 +506,7 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
+    border-radius: 25px;
     
 }
 
@@ -455,6 +521,7 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
+    border-radius: 25px;
     
 }
 
@@ -469,6 +536,73 @@ h4 {
     position: static;
        margin: 0;
     width:20px;
+    border-radius: 25px;
+}
+    .wayofkingsp1-picture{
+    background: url("../images/wayofkingsp1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    border-radius: 25px;
+}
+    .wayofkingsp2-picture{
+    background: url("../images/wayofkingsp2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+       border-radius: 25px;
+    width:20px;
+}
+    .WORP1-picture{
+    background: url("../images/WORP!.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    border-radius: 25px;
+}
+    .WORP2-picture{
+    background: url("../images/WORP2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    border-radius: 25px;
+}
+    .oathbringer-picture{
+    background: url("../images/oathbringer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+    min-width: 150px;
+    padding: 0;
+    position: static;
+       margin: 0;
+    width:20px;
+    border-radius: 25px;
+    
     
 }
 
@@ -478,6 +612,7 @@ h4 {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    
 }
 
 .key-info .key,
@@ -498,12 +633,13 @@ h4 {
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
+     
 }
 
 
 .key-info .key p{
     font-weight: 700;
-    
+  
 }
 
 .key-info .value{
@@ -516,6 +652,7 @@ h4 {
 .key-info-background{
     background-color: #fafafa;
     margin-left: 25px;
+    border-radius: 25px;
     
 }
 
