@@ -247,7 +247,7 @@ footer {
 
 .row{
     margin-right: 0;
-    
+    margin-left: 0;
 }
 
 /*----------------Social links*/
@@ -346,8 +346,11 @@ h4 {
 }
 
 .player{
-    width: 100%;
+    width: 80%;
     background-color: #000;
+    margin: auto;
+     padding: 30px;
+     float: none;
 }
 
 
@@ -707,7 +710,7 @@ button[type="submit"]{
 
 
 @media(max-width:1024px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
        width:100%;
        margin-bottom: 20px;
       
@@ -715,7 +718,7 @@ button[type="submit"]{
         .book-info, .key-info-background{
 
         margin-bottom: 20px;
-        margin-left: 2%
+        margin-left: 0;
        
     }
     .video-player{
@@ -728,11 +731,15 @@ button[type="submit"]{
        margin-left: 2%;
        margin: 0;
    }
+   .teaching-video {
+    position: static;
+    padding-right: 0px;
+}
 }
 
 
 @media(max-width:768px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
        width:100%;
        margin-bottom: 20px;
       
@@ -740,7 +747,7 @@ button[type="submit"]{
         .book-info, .key-info-background{
 
         margin-bottom: 20px;
-        margin-left: 2%
+       margin-left: 0;
        
     }
     .video-player{
@@ -753,12 +760,16 @@ button[type="submit"]{
        margin-left: 2%;
        margin: 0;
    }
+   .teaching-video {
+    position: static;
+    padding-right: 0px;
+}
 }
 
 
 
 @media(max-width:480px) {
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
         background: none;
         position: fixed;
     }
@@ -766,7 +777,7 @@ button[type="submit"]{
     .book-info, .key-info-background{
 
         margin-bottom: 20px;
-        margin-left: 2%
+        margin-left: 0;
        
     }
     .video-player{
@@ -779,6 +790,10 @@ button[type="submit"]{
        margin-left: 2%;
        margin: 0;
    }
+   .teaching-video {
+    position: static;
+    padding-right: 0px;
+}
 }
 
 
