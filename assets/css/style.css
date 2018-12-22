@@ -180,7 +180,7 @@ body{
 
 .bio-paragraph {
     color: #fafafa;
-    font-family: "Exo";
+    font-family: "Exo", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -194,9 +194,10 @@ body{
 .welcome-heading {
     color: #fafafa;
     text-align: center;
-    font-family: "Slabo+27px";
+    font-family: "Slabo+27px",sans-serif;
     font-weight: 400;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -209,7 +210,7 @@ body{
 
 .intro-paragraph p{
    color: #fafafa;
-   font-family: "Exo";
+   font-family: "Exo", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -292,7 +293,7 @@ h4 {
 
 .overview-heading{
     color: #000;
-    font-family: "Slabo+27px";
+    font-family: "Slabo+27px",sans-serif;
     
 }
 
@@ -305,7 +306,7 @@ h4 {
 }
 
 .book-heading{
-    font-family: "Dancing Script";
+    font-family: "Dancing Script", sans-serif;
     font-weight: 500;
     font-size: 30px;
     text-align: center;
@@ -314,29 +315,29 @@ h4 {
 
 .stormlight-overview{
     color: #000;
-    font-family: "Slabo 27px";
+    font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
 .book-title{
-    font-family: "Slabo 27px";
+    font-family: "Slabo 27px", sans-serif;
 }
 
 .mistborn-caption{
     color: #6D8EB7;
-    font-family: "Slabo 27px";
+    font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
 .elantris-caption{
     color: #1b8533;
-        font-family: "Slabo 27px";
+        font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
 .stormlight-caption{
     color: #cb322c;
-    font-family: "Slabo 27px";
+    font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
@@ -344,14 +345,20 @@ h4 {
    position:static;
 }
 
+.player{
+    width: 100%;
+    background-color: #000;
+}
 
 
-iframe{
+.video-player{
     display: block;
     margin: auto;
     height: 315px;
-    width: 560px;
+    width: 100%;
     border: none;
+    
+
 
    
 }
@@ -365,10 +372,9 @@ iframe{
     width: 80%;
      margin: auto;
      padding: 30px;
-     font-family: "Exo";
+     font-family: "Exo", sans-serif;
     font-size: 23px;
     text-align: center;
-    border-radius: 25px;
     
     
 }
@@ -378,13 +384,13 @@ iframe{
     margin-left: 55px;
     margin-right: 40px;
     color: #000;
-    font-family: "Exo";
+    font-family: "Exo", sans-serif;
     font-size: 23px;
-     border-radius: 25px;
+  
 }
 
 .value{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
@@ -409,7 +415,7 @@ iframe{
     position: static;
     margin: 0;
     width:20px;
-    border-radius: 25px;
+   
 }
 
 .final-picture{
@@ -423,7 +429,7 @@ iframe{
     position: static;
     margin: 0;
     width:20px;
-    border-radius: 25px;
+    
 }
 
 
@@ -439,7 +445,7 @@ iframe{
     position: static;
     margin: 0;
     width:20px;
-    border-radius: 25px;
+  
   
 }
 
@@ -454,7 +460,7 @@ iframe{
     position: static;
     margin: 0;
     width:20px;
-    border-radius: 25px;
+   
     
 }
 
@@ -469,7 +475,7 @@ iframe{
     position: relative;
     margin: 0;
     width:1px;
-    border-radius: 25px;
+  
     
 }
 
@@ -484,7 +490,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+    
 }
 
 .band-picture{
@@ -498,7 +504,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+  
     
 }
 .warbreaker-picture{
@@ -512,7 +518,6 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
     
 }
 
@@ -527,7 +532,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+    
     
 }
 
@@ -542,7 +547,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+    
 }
     .wayofkingsp1-picture{
     background: url("../images/wayofkingsp1.jpg");
@@ -555,7 +560,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+
 }
     .wayofkingsp2-picture{
     background: url("../images/wayofkingsp2.jpg");
@@ -567,7 +572,7 @@ iframe{
     padding: 0;
     position: static;
        margin: 0;
-       border-radius: 25px;
+    
     width:20px;
 }
     .WORP1-picture{
@@ -581,7 +586,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+   
 }
     .WORP2-picture{
     background: url("../images/WORP2.jpg");
@@ -594,7 +599,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+  
 }
     .oathbringer-picture{
     background: url("../images/oathbringer.jpg");
@@ -607,7 +612,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+
     
     
 }
@@ -623,7 +628,7 @@ iframe{
     position: static;
        margin: 0;
     width:20px;
-    border-radius: 25px;
+  
 }
 
 /*------------------Key info*/
@@ -649,7 +654,7 @@ iframe{
 
 .key-info .key{
     display: inline-block;
-    width: 30%;
+    width: 40%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
@@ -665,14 +670,14 @@ iframe{
 .key-info .value{
     display: inline-block;
     position: relative;
-    width: 60%;
+    width: 50%;
 }
 
 
 .key-info-background{
     background-color: #fafafa;
     margin-left: 25px;
-    border-radius: 25px;
+    
     
 }
 
@@ -701,53 +706,91 @@ button[type="submit"]{
 /*---------------Media queries*/
 
 
+@media(max-width:1024px){
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+       width:100%;
+       margin-bottom: 20px;
+      
+    }
+        .book-info, .key-info-background{
 
-@media(max-width:567px) and (max-width: 768px){
+        margin-bottom: 20px;
+        margin-left: 2%
+       
+    }
+    .video-player{
+        
+        width: 100%;
+    
+    }
+   .player{
+       width: 100%;
+       margin-left: 2%;
+       margin: 0;
+   }
+}
+
+
+@media(max-width:768px){
+    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+       width:100%;
+       margin-bottom: 20px;
+      
+    }
+        .book-info, .key-info-background{
+
+        margin-bottom: 20px;
+        margin-left: 2%
+       
+    }
+    .video-player{
+        
+        width: 100%;
+    
+    }
+   .player{
+       width: 100%;
+       margin-left: 2%;
+       margin: 0;
+   }
+}
+
+
+
+@media(max-width:480px) {
     .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
         background: none;
         position: fixed;
     }
     
     .book-info, .key-info-background{
-        width:100%;
-        margin: 0;
-        padding-bottom: 10px;
+
+        margin-bottom: 20px;
+        margin-left: 2%
+       
     }
+    .video-player{
+        
+        width: 100%;
+    
+    }
+   .player{
+       width: 100%;
+       margin-left: 2%;
+       margin: 0;
+   }
 }
 
 
-@media(min-width:568px) and (max-width: 768px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
-        background: none;
-        position: fixed;
-    }
-      .book-info, .key-info-background{
-        width:100%;
-        margin: 0;
-        padding-bottom: 10px;
-    }
-}
-
-@media(min-width:768px) and (max-width: 997px){
-    .final-picture, .band-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture,l .edgedancer-picture{
-       width:100%;
-       margin-bottom: 20px;
-    }
-      .book-info, .key-info-background{
-        width:100%;
-        margin: 0;
-        margin-bottom: 10px;
-    }
-}
 
 
 /*------------Image Gallery*/
 
 .gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+
   float: left;
-  width: 180px;
+  width: 100%;
 }
 
 .gallery:hover {
@@ -762,4 +805,7 @@ button[type="submit"]{
 .desc {
   padding: 15px;
   text-align: center;
+  background-color: #000;
+  color: #fafafa;
+  font-family: "Exo", sans-serif;
 }
