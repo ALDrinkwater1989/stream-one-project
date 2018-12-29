@@ -8,9 +8,8 @@
 Mistborn blue - #6D8EB7
 */
 
-
-body{
-    background:#6D8EB7;
+body {
+    background: #6D8EB7;
     padding-top: 100px;
 }
 
@@ -29,17 +28,17 @@ body{
 
 
 
-.mistborn-page-background{
+.mistborn-page-background {
     background-color: #6D8EB7;
 }
 
 
-.stormlight-page-background{
-     background: #b3181b;
-     height: 100%;
+.stormlight-page-background {
+    background: #b3181b;
+    height: 100%;
 }
 
-.other-books-background{
+.other-books-background {
     background: #0b6129;
 }
 
@@ -53,43 +52,43 @@ body{
 
 #bio {
     background: rgba(0, 0, 0, 0.6);
-   padding-right: 15px;
-   padding-left:15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.bio-bacgkround-color{
+.bio-bacgkround-color {
     background-color: red;
 }
 
 /*NAVBAR*/
 
-.nav-border{
+.nav-border {
     padding: 0;
 }
 
 
-.navbar ul li{
-   padding-bottom: 20px;
+.navbar ul li {
+    padding-bottom: 20px;
 
 }
 
-.navbar a{
+.navbar a {
     color: #fff;
     text-align: center;
-   
+
 }
 
 
-.navbar{
+.navbar {
     margin-bottom: 0;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #525252;
-    border:0;
+    border: 0;
     z-index: 1;
-    
+
 }
 
 .navbar .navbar-brand {
@@ -111,7 +110,7 @@ body{
     color: white;
 }
 
- .navbar-btn {
+.navbar-btn {
     border: 0;
     border-radius: 16px;
     width: 100px;
@@ -126,7 +125,7 @@ body{
     color: #FFFFFF;
 }
 
-.collapse{
+.collapse {
     padding: 0;
 }
 
@@ -135,10 +134,9 @@ body{
 
 /*--------------Style*/
 
-
 .styles {
     height: 40px;
-     padding-left: 0;
+    padding-left: 0;
     padding-right: 0;
     display: inline;
 }
@@ -157,7 +155,7 @@ body{
     font-weight: 100;
     letter-spacing: 2px;
     margin-top: 10px;
- 
+
 
 
 }
@@ -173,7 +171,7 @@ body{
     min-width: 360px;
     padding: 0;
     position: static;
-    
+
 }
 
 /*----------------Bio*/
@@ -194,30 +192,30 @@ body{
 .welcome-heading {
     color: #fafafa;
     text-align: center;
-    font-family: "Slabo+27px",sans-serif;
+    font-family: "Slabo+27px", sans-serif;
     font-weight: 400;
     font-size: 40px;
     text-transform: uppercase;
 }
 
 
-.intro-paragraph{
-   
+.intro-paragraph {
+
     display: inline-block;
     width: 100%;
-    
+
 }
 
-.intro-paragraph p{
-   color: #fafafa;
-   font-family: "Exo", sans-serif;
+.intro-paragraph p {
+    color: #fafafa;
+    font-family: "Exo", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
 }
 
-#welcome{
-        margin-top: 20px;
+#welcome {
+    margin-top: 20px;
 
 }
 
@@ -226,9 +224,9 @@ body{
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 40px;
-    
-  
-  
+
+
+
 }
 
 /*----------------Footer*/
@@ -245,7 +243,7 @@ footer {
 
 /*----------------placeholder*/
 
-.row{
+.row {
     margin-right: 0;
     margin-left: 0;
 }
@@ -275,7 +273,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background:  #6D8EB7;
+    background: #6D8EB7;
 }
 
 /*----------------General formatting*/
@@ -287,17 +285,17 @@ h4 {
     margin: 0;
 }
 
-.stormlight-heading{
+.stormlight-heading {
     color: #fafafa;
 }
 
-.overview-heading{
+.overview-heading {
     color: #000;
-    font-family: "Slabo+27px",sans-serif;
-    
+    font-family: "Slabo+27px", sans-serif;
+
 }
 
-.italic{
+.italic {
     font-style: italic;
 }
 
@@ -305,109 +303,108 @@ h4 {
     text-transform: uppercase;
 }
 
-.book-heading{
+.book-heading {
     font-family: "Dancing Script", sans-serif;
     font-weight: 500;
     font-size: 30px;
     text-align: center;
-    
+
 }
 
-.stormlight-overview{
+.stormlight-overview {
     color: #000;
     font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
-.book-title{
+.book-title {
     font-family: "Slabo 27px", sans-serif;
 }
 
-.mistborn-caption{
+.mistborn-caption {
     color: #6D8EB7;
     font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
-.elantris-caption{
+.elantris-caption {
     color: #1b8533;
-        font-family: "Slabo 27px", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
-.stormlight-caption{
+.stormlight-caption {
     color: #cb322c;
     font-family: "Slabo 27px", sans-serif;
     font-size: 25px;
 }
 
-.teaching-video{
-   position:static;
+.teaching-video {
+    position: static;
 }
 
-.player{
+.player {
     width: 80%;
     background-color: #000;
     margin: auto;
-     padding: 30px;
-     float: none;
+    padding: 30px;
+    float: none;
 }
 
 
-.video-player{
+.video-player {
     display: block;
     margin: auto;
     height: 315px;
     width: 100%;
     border: none;
-    
 
 
-   
+
+
 }
 
-.hidden-title{
+.hidden-title {
     visibility: hidden;
 }
 
-.overview{
+.overview {
     background-color: #fafafa;
     width: 80%;
-     margin: auto;
-     padding: 30px;
-     font-family: "Exo", sans-serif;
+    margin: auto;
+    padding: 30px;
+    font-family: "Exo", sans-serif;
     font-size: 23px;
     text-align: center;
-    
-    
+
+
 }
 
-.book-info{
-    background-color: rgba(250,	250, 250, 1);
+.book-info {
+    background-color: rgba(250, 250, 250, 1);
     margin-left: 55px;
     margin-right: 40px;
     color: #000;
     font-family: "Exo", sans-serif;
     font-size: 23px;
-  
+
 }
 
-.value{
+.value {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
 
-.audio-player{
-    margin:auto;
+.audio-player {
+    margin: auto;
     display: block;
 }
 
 
 /*---------------Pictures*/
 
-
-.allomancy-picture{
+.allomancy-picture {
     background: url("../images/allomancy.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -417,11 +414,11 @@ h4 {
     padding: 0;
     position: static;
     margin: 0;
-    width:20px;
-   
+    width: 20px;
+
 }
 
-.final-picture{
+.final-picture {
     background: url("../images/final-empire.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -431,13 +428,13 @@ h4 {
     padding: 0;
     position: static;
     margin: 0;
-    width:20px;
-    
+    width: 20px;
+
 }
 
 
 
-.well-picture{
+.well-picture {
     background: url("../images/well.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -447,12 +444,12 @@ h4 {
     padding: 0;
     position: static;
     margin: 0;
-    width:20px;
-  
-  
+    width: 20px;
+
+
 }
 
-.hero-picture{
+.hero-picture {
     background: url("../images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -462,12 +459,12 @@ h4 {
     padding: 0;
     position: static;
     margin: 0;
-    width:20px;
-   
-    
+    width: 20px;
+
+
 }
 
-.alloy-picture{
+.alloy-picture {
     background: url("../images/alloy.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -477,12 +474,12 @@ h4 {
     padding: 0;
     position: relative;
     margin: 0;
-    width:1px;
-  
-    
+    width: 1px;
+
+
 }
 
-.shadow-picture{
+.shadow-picture {
     background: url("../images/shadow.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -491,12 +488,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-    
+    margin: 0;
+    width: 20px;
+
 }
 
-.band-picture{
+.band-picture {
     background: url("../images/bands.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -505,12 +502,13 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-  
-    
+    margin: 0;
+    width: 20px;
+
+
 }
-.warbreaker-picture{
+
+.warbreaker-picture {
     background: url("../images/warbreaker.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -519,12 +517,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-    
+    margin: 0;
+    width: 20px;
+
 }
 
-.elantris-picture{
+.elantris-picture {
     background: url("../images/elantris.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -533,13 +531,13 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-    
-    
+    margin: 0;
+    width: 20px;
+
+
 }
 
-.arcanum-picture{
+.arcanum-picture {
     background: url("../images/arcanum.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -548,11 +546,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-    
+    margin: 0;
+    width: 20px;
+
 }
-    .wayofkingsp1-picture{
+
+.wayofkingsp1-picture {
     background: url("../images/wayofkingsp1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -561,11 +560,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
+    margin: 0;
+    width: 20px;
 
 }
-    .wayofkingsp2-picture{
+
+.wayofkingsp2-picture {
     background: url("../images/wayofkingsp2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -574,11 +574,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    
-    width:20px;
+    margin: 0;
+
+    width: 20px;
 }
-    .WORP1-picture{
+
+.WORP1-picture {
     background: url("../images/WORP!.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -587,11 +588,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-   
+    margin: 0;
+    width: 20px;
+
 }
-    .WORP2-picture{
+
+.WORP2-picture {
     background: url("../images/WORP2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -600,11 +602,12 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-  
+    margin: 0;
+    width: 20px;
+
 }
-    .oathbringer-picture{
+
+.oathbringer-picture {
     background: url("../images/oathbringer.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -613,15 +616,15 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
+    margin: 0;
+    width: 20px;
 
-    
-    
+
+
 }
 
-.edgedancer-picture{
-    background: url("../images/edgedancer.jpg");
+.edgedancer-picture {
+    background: url("images/edgedancer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -629,171 +632,302 @@ h4 {
     min-width: 150px;
     padding: 0;
     position: static;
-       margin: 0;
-    width:20px;
-  
+    margin: 0;
+    width: 20px;
+
 }
 
 /*------------------Key info*/
 
-.key-info{
+.key-info {
     margin-bottom: 20px;
     display: block;
     clear: both;
-    
+
 }
 
 .key-info .key,
-.key-info .value{
- padding-right: 8px;
- 
+.key-info .value {
+    padding-right: 8px;
+
 }
 
 .key-info .key p,
-.key-info .value p{
- margin: 0;
- 
+.key-info .value p {
+    margin: 0;
+
 }
 
-.key-info .key{
+.key-info .key {
     display: inline-block;
     width: 40%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
-     
+
 }
 
 
-.key-info .key p{
+.key-info .key p {
     font-weight: 700;
-  
+
 }
 
-.key-info .value{
+.key-info .value {
     display: inline-block;
     position: relative;
     width: 50%;
 }
 
 
-.key-info-background{
+.key-info-background {
     background-color: #fafafa;
     margin-left: 25px;
-    
-    
+
+
 }
 
 
 /*-------------Form*/
 
-.center-form, .query-type{
+.center-form,
+.query-type {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #525252;
     color: #fafafa;
-    
+
 }
 
-.form-control{
+.form-control {
     text-align: center;
 }
 
+/*---------------Modal*/
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
 
 /*---------------Media queries*/
 
+@media(max-width:1024px) {
+    .final-picture,
+    .band-picture,
+    .oathbringer-picture,
+    .edgedancer-picture,
+    .WORP2-picture,
+    .WORP1-picture,
+    .wayofkingsp2-picture,
+    .wayofkingsp1-picture,
+    .shadow-picture,
+    .well-picture,
+    .hero-picture,
+    .alloy-picture,
+    .warbreaker-picture,
+    .elantris-picture,
+    .arcanum-picture,
+    .edgedancer-picture {
+        width: 100%;
+        margin-bottom: 20px;
 
-@media(max-width:1024px){
-    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
-       width:100%;
-       margin-bottom: 20px;
-      
     }
-        .book-info, .key-info-background{
+    .book-info,
+    .key-info-background {
 
         margin-bottom: 20px;
         margin-left: 0;
-       
+
     }
-    .video-player{
-        
+    .video-player {
+
         width: 100%;
-    
+
     }
-   .player{
-       width: 100%;
-       margin-left: 2%;
-       margin: 0;
-   }
-   .teaching-video {
-    position: static;
-    padding-right: 0px;
-}
+    .player {
+        width: 100%;
+        margin-left: 2%;
+        margin: 0;
+    }
+    .teaching-video {
+        position: static;
+        padding-right: 0px;
+    }
 }
 
 
-@media(max-width:768px){
-    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
-       width:100%;
-       margin-bottom: 20px;
-      
+@media(max-width:768px) {
+    .final-picture,
+    .band-picture,
+    .oathbringer-picture,
+    .edgedancer-picture,
+    .WORP2-picture,
+    .WORP1-picture,
+    .wayofkingsp2-picture,
+    .wayofkingsp1-picture,
+    .shadow-picture,
+    .well-picture,
+    .hero-picture,
+    .alloy-picture,
+    .warbreaker-picture,
+    .elantris-picture,
+    .arcanum-picture,
+    .edgedancer-picture {
+        width: 100%;
+        margin-bottom: 20px;
+
     }
-        .book-info, .key-info-background{
+    .book-info,
+    .key-info-background {
 
         margin-bottom: 20px;
-       margin-left: 0;
-       
+        margin-left: 0;
+
     }
-    .video-player{
-        
+    .video-player {
+
         width: 100%;
-    
+
     }
-   .player{
-       width: 100%;
-       margin-left: 2%;
-       margin: 0;
-   }
-   .teaching-video {
-    position: static;
-    padding-right: 0px;
-}
+    .player {
+        width: 100%;
+        margin-left: 2%;
+        margin: 0;
+    }
+    .teaching-video {
+        position: static;
+        padding-right: 0px;
+    }
 }
 
 
 
 @media(max-width:480px) {
-    .final-picture, .band-picture,.oathbringer-picture, .edgedancer-picture, .WORP2-picture, .WORP1-picture, .wayofkingsp2-picture,  .wayofkingsp1-picture, .shadow-picture, .well-picture, .hero-picture, .alloy-picture, .warbreaker-picture, .elantris-picture, .arcanum-picture, .edgedancer-picture{
+    .final-picture,
+    .band-picture,
+    .oathbringer-picture,
+    .edgedancer-picture,
+    .WORP2-picture,
+    .WORP1-picture,
+    .wayofkingsp2-picture,
+    .wayofkingsp1-picture,
+    .shadow-picture,
+    .well-picture,
+    .hero-picture,
+    .alloy-picture,
+    .warbreaker-picture,
+    .elantris-picture,
+    .arcanum-picture,
+    .edgedancer-picture {
         background: none;
         position: fixed;
     }
-    
-    .book-info, .key-info-background{
+
+    .book-info,
+    .key-info-background {
 
         margin-bottom: 20px;
         margin-left: 0;
-       
+
     }
-    .video-player{
-        
+    .video-player {
+
         width: 100%;
-    
+
     }
-   .player{
-       width: 100%;
-       margin-left: 2%;
-       margin: 0;
-   }
-   .teaching-video {
-    position: static;
-    padding-right: 0px;
-}
+    .player {
+        width: 100%;
+        margin-left: 2%;
+        margin: 0;
+    }
+    .teaching-video {
+        position: static;
+        padding-right: 0px;
+    }
 }
 
 
@@ -802,25 +936,24 @@ button[type="submit"]{
 /*------------Image Gallery*/
 
 .gallery {
-  margin: 5px;
-
-  float: left;
-  width: 100%;
+    margin: 5px;
+    float: left;
+    width: 100%;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 .gallery img {
-  width:100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .desc {
-  padding: 15px;
-  text-align: center;
-  background-color: #000;
-  color: #fafafa;
-  font-family: "Exo", sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fafafa;
+    font-family: "Exo", sans-serif;
 }
