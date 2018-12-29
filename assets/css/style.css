@@ -753,12 +753,14 @@ button[type="submit"] {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+  font-family: "Slabo 27px", sans-serif;
 }
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
   animation-name: zoom;
   animation-duration: 0.6s;
+  
 }
 
 @keyframes zoom {
@@ -955,5 +957,5 @@ button[type="submit"] {
     text-align: center;
     background-color: #000;
     color: #fafafa;
-    font-family: "Exo", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
 }
