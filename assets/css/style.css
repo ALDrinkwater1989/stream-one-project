@@ -9,27 +9,39 @@ Mistborn blue - #6D8EB7
 */
 
 body {
-    background: #6D8EB7;
+
     padding-top: 100px;
+    background:#000;
+
 }
 
 
 
 .background {
-    background: linear-gradient(rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0.5)),
-
+    background:
     url("../images/books.jpg");
 
 
 }
 
 
+.gallery-background {
+    background: #000;
 
+}
 
 
 .mistborn-page-background {
-    background-color: #6D8EB7;
+    background-color: #5e86b3;
+}
+
+.mistborn-background-picture {
+    background-image: url("../images/vin_mistborn.jpg");
+
+    background-repeat: repeat;
+    background-size: contain;
+
+
 }
 
 
@@ -43,22 +55,11 @@ body {
 }
 
 
-#welcome {
-    background-color: rgba(192, 192, 192, 0.9);
-
-
-
+.cosmere-background-color{
+    background: #e1e4e5;
 }
 
-#bio {
-    background: rgba(0, 0, 0, 0.6);
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
-.bio-bacgkround-color {
-    background-color: red;
-}
 
 /*NAVBAR*/
 
@@ -178,7 +179,7 @@ body {
 
 .bio-paragraph {
     color: #fafafa;
-    font-family: "Exo", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -187,15 +188,23 @@ body {
 
 }
 
+#bio {
+    background: rgba(0, 0, 0, 0.6);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
 /*----------------Welcome*/
 
 .welcome-heading {
-    color: #fafafa;
+    color: #000;
     text-align: center;
     font-family: "Slabo+27px", sans-serif;
     font-weight: 400;
     font-size: 40px;
     text-transform: uppercase;
+
 }
 
 
@@ -203,12 +212,16 @@ body {
 
     display: inline-block;
     width: 100%;
+     background: rgba(0, 0, 0, 0.6);
+    padding-right: 15px;
+    padding-left: 15px;
+
 
 }
 
 .intro-paragraph p {
     color: #fafafa;
-    font-family: "Exo", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -237,6 +250,7 @@ footer {
     min-height: 120px;
     padding: 0;
     width: 100%;
+    margin-top: 20px;
 }
 
 
@@ -370,10 +384,25 @@ h4 {
     width: 80%;
     margin: auto;
     padding: 30px;
-    font-family: "Exo", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
     font-size: 23px;
     text-align: center;
 
+
+}
+
+.test-overview {
+    background-color: #fafafa;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.test-overview p {
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 23px;
+    text-align: center;
 
 }
 
@@ -382,16 +411,18 @@ h4 {
     margin-left: 55px;
     margin-right: 40px;
     color: #000;
-    font-family: "Exo", sans-serif;
+    font-family: "Slabo 27px", sans-serif;
     font-size: 23px;
     text-align: center;
     padding: 10px;
 
 }
 
-.cosmere-info {
+
+.cosmere-info,
+.contact-info {
     background-color: rgba(250, 250, 250, 1);
-    margin-right: 40px;
+    margin-right: auto;
     color: #000;
     font-family: "Slabo 27px", sans-serif;
     font-size: 23px;
@@ -434,7 +465,7 @@ td {
     margin: auto;
     text-align: center;
     font-family: "Slabo 27px", sans-serif;
-    width:100%;
+    width: 100%;
 }
 
 .planets-table th {
@@ -680,7 +711,7 @@ td {
 }
 
 .edgedancer-picture {
-    background: url("images/edgedancer.jpg");
+    background: url("../images/edgedancer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -743,6 +774,13 @@ td {
 
 }
 
+.overlay-background {
+    background: #fafafa;
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+}
+
 
 /*-------------Form*/
 
@@ -765,12 +803,38 @@ button[type="submit"] {
     text-align: center;
 }
 
+/*------------Image Gallery*/
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 100%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fafafa;
+    font-family: "Slabo 27px", sans-serif;
+    border: 2px solid #fff;
+}
+
 /*---------------Modal*/
 
 /* Style the Image Used to Trigger the Modal */
 
 .myImg {
-    border-radius: 5px;
+
     cursor: pointer;
     transition: 0.3s;
 }
@@ -1027,34 +1091,4 @@ button[type="submit"] {
         position: static;
 
     }
-}
-
-
-
-
-
-
-/*------------Image Gallery*/
-
-.gallery {
-    margin: 5px;
-    float: left;
-    width: 100%;
-}
-
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-    background-color: #000;
-    color: #fafafa;
-    font-family: "Slabo 27px", sans-serif;
 }
