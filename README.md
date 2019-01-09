@@ -29,7 +29,7 @@ The aim was to provide compelling information about the books to encourage users
 
 ### Mockups
 
-As part of the design process I created the mockups that can be found [here](../assets/mockups) i was happy with these to begin with, however as the project went on
+As part of the design process I created the mockups that can be found [here](assets/mockups) i was happy with these to begin with, however as the project went on
 I decided to change the lay out of a couple of pages, and also i created the gallery page after i was looking at the mobile view nad thought that as the
 book covers are not shown on a mobile, i wanted a place to show them off for mobile users, so the gallery was created, which is why there is no mockup for it.
 
@@ -71,7 +71,7 @@ Some area of the site that required testing are;
 - the youtube video works.
 - the podcast works.
 
-you can find the tests that i ran [here](../assets/test-documents)
+you can find the tests that i ran [here](assets/test-documents)
 
 ### Known bugs
 
