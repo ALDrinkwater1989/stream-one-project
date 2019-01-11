@@ -33,6 +33,8 @@ As part of the design process I created the mockups that can be found [here](htt
 I decided to change the lay out of a couple of pages, and also i created the gallery page after i was looking at the mobile view nad thought that as the
 book covers are not shown on a mobile, i wanted a place to show them off for mobile users, so the gallery was created, which is why there is no mockup for it.
 
+![Mockup 1](./asests/Mockups/img13122018_001.jpg)
+
 ## Features
 
 On this page the user is able to do a number of things.
