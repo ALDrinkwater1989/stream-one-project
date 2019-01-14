@@ -775,7 +775,7 @@ td {
 }
 
 .overlay-background {
-    background: #fafafa;
+    background: rgba(255,255,255, 0.7);
     width: 95%;
     height: 100%;
     padding: 10px;
