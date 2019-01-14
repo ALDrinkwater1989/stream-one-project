@@ -941,6 +941,53 @@ button[type="submit"] {
 
 /*---------------Media queries*/
 
+@media(min-width:1197px){
+     .final-picture,
+    .band-picture,
+    .oathbringer-picture,
+    .edgedancer-picture,
+    .WORP2-picture,
+    .WORP1-picture,
+    .wayofkingsp2-picture,
+    .wayofkingsp1-picture,
+    .shadow-picture,
+    .well-picture,
+    .hero-picture,
+    .alloy-picture,
+    .warbreaker-picture,
+    .elantris-picture,
+    .arcanum-picture,
+    .edgedancer-picture {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .book-info,
+    .key-info-background {
+
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .video-player {
+
+        width: 100%;
+
+    }
+    .player {
+        width: 100%;
+        margin-left: 2%;
+        margin: 0;
+    }
+    .teaching-video {
+        position: static;
+        padding-right: 0px;
+    }
+
+
+}
+
 @media(max-width:1024px) {
     .final-picture,
     .band-picture,
@@ -985,6 +1032,8 @@ button[type="submit"] {
         padding-right: 0px;
     }
 }
+
+
 
 
 @media(max-width:768px) {
