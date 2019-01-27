@@ -11,15 +11,14 @@ Mistborn blue - #6D8EB7
 body {
 
     padding-top: 100px;
-    background:#000;
+    background: #000;
 
 }
 
 
 
 .background {
-    background:
-    url("../images/books.jpg");
+    background: url("../images/books.jpg");
 
 
 }
@@ -55,7 +54,7 @@ body {
 }
 
 
-.cosmere-background-color{
+.cosmere-background-color {
     background: #e1e4e5;
 }
 
@@ -212,7 +211,7 @@ body {
 
     display: inline-block;
     width: 100%;
-     background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
     padding-right: 15px;
     padding-left: 15px;
 
@@ -439,7 +438,7 @@ h4 {
     display: block;
 }
 
-hr{
+hr {
     border-top: none;
 }
 
@@ -777,7 +776,7 @@ td {
 }
 
 .overlay-background {
-    background: rgba(255,255,255, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     width: 95%;
     height: 100%;
     padding: 10px;
@@ -941,8 +940,8 @@ button[type="submit"] {
 
 /*---------------Media queries*/
 
-@media(min-width:1197px){
-     .final-picture,
+@media(max-width:1197px) {
+    .final-picture,
     .band-picture,
     .oathbringer-picture,
     .edgedancer-picture,
@@ -1034,7 +1033,19 @@ button[type="submit"] {
 }
 
 
+@media (min-width: 998px) {
+    .navbar-collapse.collapse {
+        display: block!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
 
+    .navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
 
 @media(max-width:768px) {
     .final-picture,
