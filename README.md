@@ -20,7 +20,7 @@ The aim was to provide compelling information about the books to encourage users
 - as a user, i want to see information on the Stormlight Archives series, so that i can learn more about the books
 - as a user, i want to see information on other books Brandon Sanderson has written, so that i can learn more about those books
 - as a user, i want to be able to fill out a form, so that i can ask questions or request a booking
-- as a user, i want to watch videos on Brandons lectures, so that i can learn more abotu writing
+- as a user, i want to watch videos on Brandons lectures, so that i can learn more about writing
 - as a user, i want to listen to the podcast "Writing Excuses", so that i can listen to the podcast and learn about different topics
 - as a user, i want to have a page that has a biography of Brandon, so that i can learn more about him.
 - as a user, i want to have a place to read about the Cosmere, so that i can learn more about the universe he has created
